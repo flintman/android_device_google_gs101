@@ -5,3 +5,6 @@
 #
 
 DEVICE_PACKAGE_OVERLAYS += device/google/gs101/overlay-ev
+
+# Google Assistant
+PRODUCT_PRODUCT_PROPERTIES += ro.opa.eligible_device=true
