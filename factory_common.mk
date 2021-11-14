@@ -82,3 +82,5 @@ PRODUCT_PACKAGES_DEBUG += \
 PRODUCT_PACKAGES_DEBUG += \
     WvInstallKeybox
 endif
+
+$(call inherit-product, device/google/gs101/ev_common.mk)
