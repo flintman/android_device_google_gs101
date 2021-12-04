@@ -5,6 +5,7 @@ AB_OTA_PARTITIONS += \
 
 # Required Build flags
 BUILD_BROKEN_DUP_RULES := true
+BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 
 # Build vendor_dlkm
 BOARD_USES_VENDOR_DLKMIMAGE := true
