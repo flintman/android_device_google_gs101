@@ -23,6 +23,9 @@ SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += device/google/gs101/sepolicy/system_ext/priv
 #   Dauntless (uses Citadel policy currently)
 BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/citadel
 
+# Input
+BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/input
+
 #   Wifi
 BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/wifi_ext
 
