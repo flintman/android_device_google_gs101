@@ -19,6 +19,7 @@ BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
 
 # Kernel
 TARGET_NO_KERNEL_OVERRIDE := true
+TARGET_KERNEL_SOURCE := kernel/google/raviole
 
 # Enable chain partition for vendor.
 BOARD_AVB_VBMETA_VENDOR := vendor
