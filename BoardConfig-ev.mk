@@ -3,6 +3,9 @@ BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 AB_OTA_PARTITIONS += \
     vendor
 
+# Required Build flags
+BUILD_BROKEN_DUP_RULES := true
+
 # Build vendor_dlkm
 BOARD_USES_VENDOR_DLKMIMAGE := true
 BOARD_VENDOR_DLKMIMAGE_FILE_SYSTEM_TYPE := ext4
