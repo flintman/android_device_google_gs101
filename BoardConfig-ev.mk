@@ -22,9 +22,10 @@ AB_OTA_PARTITIONS += \
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
 
 # Kernel
-TARGET_NO_KERNEL_OVERRIDE := true
-TARGET_KERNEL_SOURCE := kernel/google/raviole
-#BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
+BOARD_KERNEL_IMAGE_NAME := Image.lz4
+TARGET_KERNEL_CONFIG := slider_gki_defconfig
+TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-gnu-
+TARGET_NEEDS_DTBOIMAGE := true
 
 # Enable chain partition for vendor.
 BOARD_AVB_VBMETA_VENDOR := vendor
